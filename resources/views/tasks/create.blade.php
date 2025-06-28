@@ -30,7 +30,7 @@
                     <option value="">-- Select Status --</option>
                     <option value="to_do" {{ old('status') == 'to_do' ? 'selected' : '' }}>To do</option>
                     <option value="in_progress" {{ old('status') == 'in_progress' ? 'selected' : '' }}>In Progress</option>
-                    <option value="completed" {{ old('status') == 'completed' ? 'selected' : '' }}>Completed</option>
+                    <option value="done" {{ old('status') == 'done' ? 'selected' : '' }}>Done</option>
                 </select>
             </div>
             

@@ -4,6 +4,8 @@ use App\Http\Controllers\taskController;
 use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/', [TaskController::class, 'index'])->middleware('auth');
+
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login'])->name('showLogin');
 Route::get('/register', [AuthController::class, 'showRegister'])->name('showRegister');

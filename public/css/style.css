@@ -13,7 +13,7 @@ height: 100%;
 }
 
 html {
-    height: 80%;
+    height: 100%;
 }
 
 .nav {
@@ -73,11 +73,9 @@ span:hover {
     display: flex;
     flex-direction: column;
     place-content: center;
-    /* border: 1px solid white; */
     height: inherit;
     color: #ECDFCC;
     gap: 1.2rem;
-    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -101,6 +99,10 @@ span:hover {
     padding: 24px;
     border-radius: 12px;
     box-shadow: #000000 0px 3px 5px 1px ;
+}
+
+.form>.btn {
+    margin-top: 12px;
 }
 
 a {
